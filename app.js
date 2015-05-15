@@ -11,9 +11,10 @@ app.use(function *(){
 	var signature = this.request.query.signature;
 	var timestamp = this.request.query.timestamp;
 	var nonce = this.request.query.nonce;
+	var echostr = this.request.query.echostr;
 
 	if(checkSignature(signature,timestamp,nonce)){
-		this.body = true;
+		this.body = echostr;
 	}else{
 		this.body = false;
 	}
