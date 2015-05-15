@@ -1,0 +1,22 @@
+{
+  "name": "wx-api",
+  "version": "1.0.0",
+  "description": "weixin api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yize/wx-api.git"
+  },
+  "author": "yize.shc@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yize/wx-api/issues"
+  },
+  "homepage": "https://github.com/yize/wx-api",
+  "dependencies": {
+    "koa": "~0.20.0"
+  }
+}
